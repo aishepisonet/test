@@ -16,6 +16,7 @@ export default function handler(req, res) {
     // ========================================
     const YOUR_ISP_RANGE = /^103\.167\.16[01]\.\d{1,3}$/; // Covers both 160.x and 161.x
     const YOUR_ISP_RANGE1 = /^158\.62\.57\.\d{1,3}$/; // Your ISP range Jessie Manipis Ip address
+    const YOUR_ISP_RANGE2 = /^31\.6\.63\.\d{1,3}$/; // Your ISP range App Live BrowserStack
     //const YOUR_ISP_RANGE = /^103\.167\.160\.\d{1,3}$/; // Your ISP range Cebu Cable Ip address @ Aishepisonet
     const ALLOWED_IPS = process.env.ALLOWED_IPS?.split(',').map(ip => ip.trim()).filter(Boolean) || [];
     
