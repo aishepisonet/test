@@ -27,7 +27,7 @@
     /* Player container */
     #video-container {
       flex: 0 0 80%; /* 80% width for player */
-      max-width: 80%;
+      max-width: 100%;
       overflow: hidden;
       position: relative;
       margin-top: 50px;
