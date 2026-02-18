@@ -7,7 +7,7 @@
       color: #eee;
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
+      
     }
 
     /* Container holding player and channels */
